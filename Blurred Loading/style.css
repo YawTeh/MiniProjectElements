@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://external-preview.redd.it/HQho_sXGRBNuBwR1le98gcQ6OleRWUso8VIqRHKlxD4.png?auto=webp&s=904051367c29095b8bb71be2329436377530b0e6') no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(30px)
+}
+
+.loading-text {
+    font-size: 50px;
+    color: white;
+}
+
